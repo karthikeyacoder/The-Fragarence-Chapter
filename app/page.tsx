@@ -64,22 +64,22 @@ export default function Home() {
             {
               name: "Midnight Orchid",
               price: "120.00",
-              image: "https://secrettemptation.in/cdn/shop/files/ST_Romance_1000x1000_copy_3.jpg?v=1718263911",
+              image: "/placeholder.svg",
             },
             {
               name: "Ocean Breeze",
               price: "95.00",
-              image: "https://plumgoodness.com/cdn/shop/files/VC_EDP_1080x1080_001.jpg?v=1720004480&width=1080",
+              image: "/placeholder.svg",
             },
             {
               name: "Wild Rose",
               price: "150.00",
-              image: "https://secrettemptation.in/cdn/shop/files/ST_Romance_1000x1000_copy_2.jpg?v=1718263911",
+              image: "/placeholder.svg",
             },
             {
               name: "Cedar & Sage",
               price: "135.00",
-              image: "https://plumgoodness.com/cdn/shop/files/MKD_01.jpg?v=1728452056&width=1080",
+              image: "/placeholder.svg",
             },
           ].map((product, i) => (
             <div key={i} className="group cursor-pointer" data-aos="fade-up" data-aos-delay={i * 100}>
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
         <div className="bg-[#E8EFEA] p-8 flex items-center" data-aos="fade-left">
           <div className="space-y-4">
-            <h3 className="text-2xl font-light">25% Off Selected Fragrances</h3>
+            <h3 className="text-2xl font-light">COMING SOOOONNNN...</h3>
             <p className="text-gray-600">Experience luxury for less</p>
             <Button variant="link" className="p-0 text-black hover:text-gray-600">
               Shop Now →

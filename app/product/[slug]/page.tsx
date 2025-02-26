@@ -19,7 +19,7 @@ export default function ProductPage() {
           {/* Product Images */}
           <div className="space-y-6">
             <div className="aspect-square relative bg-gray-100">
-              <Image src="https://secrettemptation.in/cdn/shop/files/ST_Romance_1000x1000_copy_3.jpg?v=1718263911" alt="Product texture" fill className="object-contain p-12" />
+              <Image src="/placeholder.svg" alt="Product texture" fill className="object-contain p-12" />
             </div>
           </div>
 
@@ -88,17 +88,17 @@ export default function ProductPage() {
               {
                 name: "Ocean Breeze",
                 price: "95.00",
-                image: "https://plumgoodness.com/cdn/shop/files/VC_EDP_1080x1080_001.jpg?v=1720004480&width=1080",
+                image: "/placeholder.svg",
               },
               {
                 name: "Wild Rose",
                 price: "150.00",
-                image: "https://secrettemptation.in/cdn/shop/files/ST_Romance_1000x1000_copy_2.jpg?v=1718263911",
+                image: "/placeholder.svg",
               },
               {
                 name: "Cedar & Sage",
                 price: "135.00",
-                image: "https://plumgoodness.com/cdn/shop/files/MKD_01.jpg?v=1728452056&width=1080",
+                image: "/placeholder.svg",
               },
             ].map((product, i) => (
               <div key={i} className="group cursor-pointer">

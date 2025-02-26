@@ -8,8 +8,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 export function Navbar() {
   return (
     <>
-      {/* Announcement Bar */}
-      <div className="w-full bg-black  text-white text-center text-sm py-1">Free shipping on all orders over ₹250</div>
+
 
       {/* Header */}
       <header className="border-b bg-white">
